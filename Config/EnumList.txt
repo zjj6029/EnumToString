@@ -1,0 +1,15 @@
+[T_DV_EventType]
+Path:T_AppDigitalVoice.h
+Enum:{TDV_EventType_t}
+
+[T_DV_EventSource]
+Path:T_AppDigitalVoice.h
+Enum:{TDV_EventSource_t}
+
+[T_DV_EventContent]
+Path:T_AppDigitalVoice.h
+Enum:{InputKeyEvent,InputPSEvent,InputAPPEvent,InputTimerEvent,InputHrcppEvent,InputAutoEvent,InLLEvent}
+
+[Msg_Origin]
+Path:Message_dispatcher.h
+Enum:{msg_origin_e}

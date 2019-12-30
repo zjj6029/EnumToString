@@ -1,0 +1,4 @@
+[T_DV_EventType] = m_Event.Event_Type
+[T_DV_EventSource] = m_Event.Event_Source = 16
+[T_DV_EventContent] = m_Event.Event_Content = 16
+[Msg_Origin] = AMF_T:souceid = 10

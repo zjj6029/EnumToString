@@ -1,0 +1,8 @@
+1、填写配置文件EnumList时，枚举变量的Enum有多个子枚举的话，子枚举填写顺序要按头文件中子枚举变量定义的顺序依次书写；
+
+2、如果存在某个子枚举变量A的首枚举值是由另一个子枚举量B的末尾值决定，且该子枚举量B是通过包含头文件的方式引用的，则会存在无法正确解析的情况，属于固有缺陷，使用者尽量避免解析此类枚举；
+
+3、术语：枚举变量、子枚举变量说明，例如：
+[T_DV_EventContent] ->枚举变量，即用户自己定义，查询用的
+Path:T_AppDigitalVoice.h ->子枚举变量所在的头文件，有EnvPath情况下，可只填文件名
+Enum:{InputKeyEvent,InputPSEvent,InputAPPEvent,InputTimerEvent,InputHrcppEvent,InputAutoEvent,InLLEvent} ->这些都是相应子枚举变量，即头文件中定义的一个个枚举变量
